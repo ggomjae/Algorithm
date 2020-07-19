@@ -1,20 +1,9 @@
-#include <iostream>
-#include <set>
+#include <stdio.h>
 
-using namespace std;
-
-int main()
-{
-	int a[10] = {0,};
-	int i ;
-	set<int> s;
+int main(){
 	
-	for( i = 0 ; i < 10 ; ++i){
-		cin >> a[i] ;
-		s.insert(a[i]%42);
-	}
-	
-	cout << s.size() << '\n';
-	
+	int a[10];
+	scanf("%d",&a[0]);
+	printf("%d",a[0]);	
 	return 0;
 }
